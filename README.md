@@ -14,7 +14,7 @@ Developed by : Muralidar.P
 Reg no : 212224040207
 
 # Client.py
-```
+```python
 import socket 
 s=socket.socket() 
 s.bind(('localhost',8000))
@@ -32,7 +32,7 @@ while True:
         break
 ```
 # Server.py
-```
+```python
 import socket 
 s=socket.socket() 
 s.connect(('localhost',8000)) 
